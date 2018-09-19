@@ -1,0 +1,2 @@
+# Django Starter
+A Docker-based bootstrapper for a new Django project.  These are the files used to build the [mchughmk/django-starter](https://hub.docker.com/r/mchughmk/django-starter/) image on Docker Hub.
