@@ -2,11 +2,11 @@ FROM python:3-alpine
 
 WORKDIR /project
 
-RUN pip install django
+RUN pip install django==2.1
 
-ADD assets /assets
+COPY assets /assets
 
-ADD bootstrap.sh /bootstrap.sh
+COPY bootstrap.sh /bootstrap.sh
 RUN chmod 755 /bootstrap.sh
 
 ENTRYPOINT [ "/bootstrap.sh" ]
