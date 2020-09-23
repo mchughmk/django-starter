@@ -1,8 +1,6 @@
-FROM python:3-alpine
+FROM python:3
 
 WORKDIR /project
-
-RUN pip install django==3.1
 
 COPY assets /assets
 

@@ -1,6 +1,4 @@
-FROM python:3-alpine
-
-RUN apk add --no-cache bash postgresql postgresql-client postgresql-dev gcc python3-dev musl-dev libressl-dev libffi-dev git jpeg-dev zlib-dev alpine-sdk
+FROM python:3
 
 ENV PYTHONUNBUFFERED 1
 

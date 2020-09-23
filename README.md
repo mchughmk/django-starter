@@ -10,3 +10,8 @@ To use, issue the following command:
 ```
 docker run -v $PWD:/project mchughmk/django-starter project-name
 ```
+
+## Optional Parameters
+| Parameter         | Description                                |
+|-------------------|--------------------------------------------|
+| `-v`, `--version` | Specifies the version of Django to install |
